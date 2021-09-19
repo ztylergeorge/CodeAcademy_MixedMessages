@@ -7,7 +7,10 @@ Each time it is run a new message will appear.
 */
 
 //store the quotes
-const personal = [];
+const personal = ["Self-help is the best help.",
+                "The secret of getting ahead is getting started.",
+                "You must have a level of discontent to feel the urge to want to grow.",
+                "We are products of our past, but we don’t have to be prisoners of it."];
 
 const relationship = [];
 
@@ -21,5 +24,5 @@ function printMessage() {
     console.log(`Relationship Quote: ${relationship[Math.random() * relationship.length]}`);
     console.log(`Professional Quote: ${professional[Math.random() * professional.length]}`);
     console.log("Check back tomorrow for more quotes!");
-    
+
 }
