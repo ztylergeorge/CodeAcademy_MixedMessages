@@ -12,7 +12,10 @@ const personal = ["Self-help is the best help.",
                 "You must have a level of discontent to feel the urge to want to grow.",
                 "We are products of our past, but we don’t have to be prisoners of it."];
 
-const relationship = ['foo'];
+const relationship = ["Each friend represents a world in us, a world possibly not born until they arrive, and it is only by this meeting that a new world is born.",
+                    "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
+                    "When you stop expecting people to be perfect, you can like them for who they are.",
+                    "If you would be loved, love, and be loveable."];
 
 const professional = ['foo'];
 
