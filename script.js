@@ -12,17 +12,19 @@ const personal = ["Self-help is the best help.",
                 "You must have a level of discontent to feel the urge to want to grow.",
                 "We are products of our past, but we don’t have to be prisoners of it."];
 
-const relationship = [];
+const relationship = ['foo'];
 
-const professional = [];
+const professional = ['foo'];
 
 //print random message using components of each type of quote
 function printMessage() {
 
     console.log("Your inspirational quotes for today: ");
-    console.log(`Personal Quote: ${personal[Math.random() * personal.length]}`);
-    console.log(`Relationship Quote: ${relationship[Math.random() * relationship.length]}`);
-    console.log(`Professional Quote: ${professional[Math.random() * professional.length]}`);
+    console.log(`Personal Quote: ${personal[Math.floor(Math.random() * personal.length)]}`);
+    console.log(`Relationship Quote: ${relationship[Math.floor(Math.random() * relationship.length)]}`);
+    console.log(`Professional Quote: ${professional[Math.floor(Math.random() * professional.length)]}`);
     console.log("Check back tomorrow for more quotes!");
 
 }
+
+printMessage();
