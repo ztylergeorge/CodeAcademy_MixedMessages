@@ -17,7 +17,10 @@ const relationship = ["Each friend represents a world in us, a world possibly no
                     "When you stop expecting people to be perfect, you can like them for who they are.",
                     "If you would be loved, love, and be loveable."];
 
-const professional = ['foo'];
+const professional = ["Quality means doing it right when no one is looking.",
+                    "You are not your resume, you are your work.",
+                    "Every accomplishment starts with the decision to try.",
+                    "Don’t confuse having a career with having a life."];
 
 //print random message using components of each type of quote
 function printMessage() {
