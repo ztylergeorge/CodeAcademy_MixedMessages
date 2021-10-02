@@ -23,14 +23,13 @@ const professional = ["Quality means doing it right when no one is looking.",
                     "Don’t confuse having a career with having a life."];
 
 //print random message using components of each type of quote
-function printMessage() {
 
-    console.log("Your inspirational quotes for today: ");
-    console.log(`Personal Quote: ${personal[Math.floor(Math.random() * personal.length)]}`);
-    console.log(`Relationship Quote: ${relationship[Math.floor(Math.random() * relationship.length)]}`);
-    console.log(`Professional Quote: ${professional[Math.floor(Math.random() * professional.length)]}`);
-    console.log("Check back tomorrow for more quotes!");
-
+module.exports = {
+    printMessage: function () {
+        return "Your inspirational quotes for today: "
+    +`Personal Quote: ${personal[Math.floor(Math.random() * personal.length)]}`
+    +`Relationship Quote: ${relationship[Math.floor(Math.random() * relationship.length)]}`
+    + `Professional Quote: ${professional[Math.floor(Math.random() * professional.length)]}`
+    + "Check back tomorrow for more quotes!";
+    }
 }
-
-printMessage();
